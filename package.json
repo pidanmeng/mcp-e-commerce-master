@@ -1,10 +1,10 @@
 {
-  "name": "@pidanmoe/mcp-photo-studio",
+  "name": "@pidanmoe/e-commerce-master",
   "version": "1.0.1",
   "module": "dist/index.js",
   "preferGlobal": true,
   "bin": {
-    "@pidanmoe/mcp-photo-studio": "./dist/index.js"
+    "@pidanmoe/e-commerce-master": "./dist/index.js"
   },
   "publishConfig": {
     "access": "public"

@@ -3,8 +3,8 @@ import { z } from 'zod';
 import { useLogger } from '../utils/logger';
 import { invokeComfyUIWorkflow, GenerateParams } from '../utils/comfyui';
 
-const name = 'product-image-retouching';
-const description = '产品图精修工具，对商品图片进行专业精修处理';
+const name = '产品图精修';
+const description = '产品图精修工具，改为白色背景';
 const parameters = z.object({
   productImageUrl: z.string().url().describe('商品图的URL地址'),
 });
